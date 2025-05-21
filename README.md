@@ -35,7 +35,9 @@ Configure Vault Agent with auto-auth and token caching on the MID Server.https:/
 
 Set the ServiceNow datasource password field with the Vault secret path, e.g., data/XXXX/SNXXX/PROD/....
 
-Set the JDBC oracle url with format jdbc:customoracle: or depending on how you configured in the JAVA class. 
+Set the JDBC oracle url with custom format jdbc:customoracle: or depending on how you configured in the JAVA class. 
+
+Create a new format choice eg.Prox Driver with value 'com.snresolver.ProxySQLDriver ' in datasource record which can be set at datasource level.
 
 Ensure the vault agent url is updated in JAVA class or use mid server properties. 
 
