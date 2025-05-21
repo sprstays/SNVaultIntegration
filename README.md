@@ -18,6 +18,11 @@ Integrates with Vault Agent running locally (e.g., on MID Server) to transparent
 
 As of now it supports only Oracle JDBC connections. It can be easily extended to other DBs by updating the Java class. 
 
+
+![image](https://github.com/user-attachments/assets/de40acc1-d623-42c1-b99a-e76e0bb651e9)
+
+
+
 Benefits
 
 Eliminates hard-coded passwords in ServiceNow datasource configurations which can be decrypted by admins.
