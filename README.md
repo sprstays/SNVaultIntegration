@@ -46,6 +46,6 @@ Create a new format choice eg.Prox Driver with value 'com.snresolver.ProxySQLDri
 
 Ensure the vault agent url is updated in JAVA class or use mid server properties. 
 
-Deploy the custom proxy JDBC driver in ServiceNow MID Server classpath.
+Deploy the custom proxy JDBC driver jar in ServiceNow MID Server classpath.
 
-The driver automatically resolves the Vault password at connection time.
+The driver automatically resolves the Vault password at runtime.
