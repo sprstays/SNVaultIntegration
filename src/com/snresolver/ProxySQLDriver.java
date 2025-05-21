@@ -8,11 +8,10 @@ import java.sql.SQLException;
 import java.sql.SQLFeatureNotSupportedException;
 import java.util.Properties;
 import java.util.logging.Logger;
+
 import oracle.jdbc.OracleDriver;
 
 public class ProxySQLDriver implements Driver {
-
-    private static final Logger logger = Logger.getLogger(ProxySQLDriver.class.getName());
 
     private final OracleDriver delegate = new OracleDriver();
 
