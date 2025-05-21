@@ -31,7 +31,6 @@ public class ProxySQLDriver implements Driver {
         }
     }
 
-
     public boolean acceptsURL(String url) throws SQLException {
         return url != null && url.startsWith(CUSTOM_PREFIX);
     }
