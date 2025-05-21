@@ -19,7 +19,7 @@ public class ProxySQLDriver implements Driver {
     private static final String CUSTOM_PREFIX = "jdbc:customoracle:";
     private static final String ORACLE_PREFIX = "jdbc:oracle:";
 
-    private static final String AGENT_ADRESS = "http://127.0.0.1:9200"; // TODO: Use midserver properties.
+    private static final String AGENT_ADRESS = "http://127.0.0.1:8200"; // TODO: Use midserver properties.
 
 
     static {
