@@ -15,6 +15,8 @@ Automatically fetches and injects the decrypted password before establishing the
 
 Integrates with Vault Agent running locally (e.g., on MID Server) to transparently forward authentication tokens.
 
+As of now it supports only Oracle JDBC connections. It can be easily extended to other DBs by updating the Java class. 
+
 Benefits
 Eliminates hard-coded passwords in ServiceNow datasource configurations which can be decrypted by admins.
 
