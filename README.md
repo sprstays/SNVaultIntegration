@@ -42,7 +42,7 @@ Set the ServiceNow datasource password field with the Vault secret path, e.g., d
 
 Set the JDBC oracle url with custom format jdbc:customoracle: or depending on how you configured in the JAVA class. 
 
-Create a new format choice eg.Prox Driver with value 'com.snresolver.ProxySQLDriver ' in datasource record which can be set at datasource level.
+Create a new format choice eg.Proxy Driver with value 'com.snresolver.ProxySQLDriver ' in datasource record which can be set at datasource level.
 
 Ensure the vault agent url is updated in JAVA class or use mid server properties. 
 
